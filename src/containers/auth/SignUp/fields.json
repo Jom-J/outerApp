@@ -1,0 +1,45 @@
+{
+  "email": {
+    "value": "",
+    "isValid": true,
+    "error": "",
+    "label": "Email",
+    "rules": {
+      "isRequired": true,
+      "isEmail": true
+    }
+  },
+  "username": {
+    "value": "",
+    "isValid": true,
+    "error": "",
+    "label": "Username",
+    "rules": {
+      "isRequired": true,
+      "isUsername": true,
+      "minLength": 6,
+      "maxLength": 10
+    }
+  },
+  "password": {
+    "value": "",
+    "isValid": true,
+    "error": "",
+    "label": "Password",
+    "rules": {
+      "isRequired": true,
+      "isPassword": true,
+      "minLength": 6,
+      "maxLength": 12
+    }
+  },
+  "confirmPassword": {
+    "value": "",
+    "isValid": true,
+    "error": "",
+    "label": "Confirm Password",
+    "rules": {
+      "isRequired": true
+    }
+  }
+}
